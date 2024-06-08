@@ -1,0 +1,12 @@
+train: /home/pc15/Lab9/Lab 9/archive(2) (1)/weapon_detection/train
+val: /home/pc15/Lab9/Lab 9/archive(2) (1)/weapon_detection/val
+
+nc: 9
+names: ['Automatic Rifle': 0, 'Bazooka': 1, 'Grenade Launcher': 2, 'Handgun': 3, 'Knife': 4, 'Shotgun': 5, 'SMG': 6, 'Sniper': 7, 'Sword': 8]
+
+roboflow:
+  workspace: joao-assalim-xmovq
+  project: weapon-2
+  version: 2
+  license: CC BY 4.0
+  url: https://www.kaggle.com/datasets/snehilsanyal/weapon-detection-test
